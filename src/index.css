@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.wrapper {
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 20px;
+}
+.cityName{
+  font-weight: bold;
+}
+
+.container {
+  padding: 10px;
+}
+
+input {
+  padding: 0.5em 0.75em;
+  width: 250px;
+}
+button, input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  padding: 0.5em 0.75em;
+  background: #c9c5c5;
+}
+
+.weatherInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  background: #eee;
+}
+
+.column {
+  padding: 5px;
+  margin: 10px;
+  width: 125px;
+}
+.column:first-child {
+  padding: 5px;
+  margin: 10px;
+  width: 150px;
+}
+
+.column:last-child {
+  padding: 5px 5px 5px 15px;
+  margin: 10px;
+  width: 100px;
+}
+.column > p {
+  padding: 5px;
+  margin: 0;
+}
+
+.temp {
+  font-size: 36px;
+  font-weight: bold;
+}
+.temp > sup {
+  font-size: 24px;
+}
+

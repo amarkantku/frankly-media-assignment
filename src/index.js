@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Weather from './Weather';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
-    <App />
+    <Weather />
   </React.StrictMode>,
   document.getElementById('root')
 );
